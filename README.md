@@ -9,9 +9,9 @@ The analysis aims to identify and address any performance gaps between two test 
 ## Dataset Overview
 The project leverages three key CSV files, which contain the deep features extracted from an image recognition model:
 
-- **train_eva02_large_patch14_448.mim_m38m_ft_in22k_in1k.csv** (Training data, 13 GB)
-- **val_eva02_large_patch14_448.mim_m38m_ft_in22k_in1k.csv** (Test Set 1, 100 MB)
-- **v2_eva02_large_patch14_448.mim_m38m_ft_in22k_in1k.csv** (Test Set 2, 550 MB)
+- **train_eva02_large_patch14_448.mim_m38m_ft_in22k_in1k.csv** (Training data, 13.1 GB)
+- **val_eva02_large_patch14_448.mim_m38m_ft_in22k_in1k.csv** (Test Set 1, 526 MB)
+- **v2_eva02_large_patch14_448.mim_m38m_ft_in22k_in1k.csv** (Test Set 2, 105 MB)
 
 **Note**: Due to the large size of these datasets, they are **not included** in this repository. You will need to download these files separately and place them in the same directory as the project or update the code paths accordingly.
 
